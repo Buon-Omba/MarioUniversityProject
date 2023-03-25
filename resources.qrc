@@ -1,0 +1,192 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>graphics/block.png</file>
+    <file>graphics/box-0.bmp</file>
+    <file>graphics/box-1.bmp</file>
+    <file>graphics/box-2.bmp</file>
+    <file>graphics/box-used.bmp</file>
+    <file>graphics/brick.bmp</file>
+    <file>graphics/brick-debris.bmp</file>
+    <file>graphics/bush-small.png</file>
+    <file>graphics/bush-med.png</file>
+    <file>graphics/bush-big.png</file>
+    <file>graphics/cloud-small.png</file>
+    <file>graphics/cloud-med.png</file>
+    <file>graphics/cloud-big.png</file>
+    <file>graphics/coin-0.png</file>
+    <file>graphics/coin-1.png</file>
+    <file>graphics/coin-2.png</file>
+    <file>graphics/coin-3.png</file>
+    <file>graphics/fireball-0.bmp</file>
+    <file>graphics/fireball-1.bmp</file>
+    <file>graphics/fireball-2.bmp</file>
+    <file>graphics/fireball-3.bmp</file>
+    <file>graphics/flower-0.bmp</file>
+    <file>graphics/flower-1.bmp</file>
+    <file>graphics/flower-2.bmp</file>
+    <file>graphics/flower-3.bmp</file>
+    <file>graphics/goomba-0.png</file>
+    <file>graphics/goomba-1.png</file>
+    <file>graphics/goomba-dead.png</file>
+    <file>graphics/hill-small.png</file>
+    <file>graphics/hill-big.png</file>
+    <file>graphics/pipe-small.png</file>
+    <file>graphics/pipe-med.png</file>
+    <file>graphics/pipe-big.png</file>
+    <file>graphics/pipe-corpe.png</file>
+    <file>graphics/mario-big-crouch.png</file>
+    <file>graphics/mario-big-jump.png</file>
+    <file>graphics/mario-big-run.png</file>
+    <file>graphics/mario-big-stand.png</file>
+    <file>graphics/mario-big-walk-0.png</file>
+    <file>graphics/mario-big-walk-1.png</file>
+    <file>graphics/mario-big-walk-2.png</file>
+    <file>graphics/mario-small-jump.png</file>
+    <file>graphics/mario-small-run.png</file>
+    <file>graphics/mario-small-stand.png</file>
+    <file>graphics/mario-small-walk-0.png</file>
+    <file>graphics/mario-small-walk-1.png</file>
+    <file>graphics/mario-small-walk-2.png</file>
+    <file>graphics/mario-small-fall.png</file>
+    <file>graphics/mario-med-stand.bmp</file>
+    <file>graphics/mushroom-green.png</file>
+    <file>graphics/mushroom-red.png</file>
+    <file>graphics/welcome.png</file>
+    <file>graphics/wall.png</file>
+    <file>graphics/turtle-turtleback-0.png</file>
+    <file>graphics/turtle-turtleback-1.png</file>
+    <file>graphics/turtle-walk-0.png</file>    
+    <file>graphics/turtle-walk-1.png</file>
+    <file>graphics/star.png</file>
+    <file>graphics/castle.png</file>
+
+    <file>files/images/brick1.bmp</file>
+    <file>files/images/brick2.bmp</file>
+    <file>files/images/gnd1.bmp</file>
+    <file>files/images/gnd2.bmp</file>
+    <file>files/images/gnd1_2.bmp</file>
+    <file>files/images/gnd2_2.bmp</file>
+
+    <file>files/images/coin_use0.bmp</file>
+    <file>files/images/coin_use20.bmp</file>
+    <file>files/images/coin_use00.bmp</file>
+    <file>files/images/coin_use01.bmp</file>
+    <file>files/images/coin_use1.bmp</file>
+    <file>files/images/coin_use21.bmp</file>
+
+    <file>files/images/goombas1_0.bmp</file>
+    <file>files/images/goombas1_1.bmp</file>
+    <file>files/images/goombas1_ded.bmp</file>
+
+     <file>files/images/koopa1_0.bmp</file>
+     <file>files/images/koopa1_1.bmp</file>
+     <file>files/images/koopa1_ded.bmp</file>
+
+     <file>files/images/koopa2_0.bmp</file>
+     <file>files/images/koopa2_1.bmp</file>
+     <file>files/images/koopa2_2.bmp</file>
+     <file>files/images/koopa2_3.bmp</file>
+     <file>files/images/koopa2_ded.bmp</file>
+
+     <file>files/images/plant_0.bmp</file>
+     <file>files/images/plant_1.bmp</file>
+     <file>files/images/plant1_0.bmp</file>
+     <file>files/images/plant1_1.bmp</file>
+
+     <file>files/images/mario/mario_move0.bmp</file>
+     <file>files/images/mario/mario_move1.bmp</file>
+     <file>files/images/mario/mario_move2.bmp</file>
+     <file>files/images/mario/mario.bmp</file>
+     <file>files/images/mario/mario_jump.bmp</file>
+     <file>files/images/mario/mario_death.bmp</file>
+     <file>files/images/mario/mario_end.bmp</file>
+     <file>files/images/mario/mario_end1.bmp</file>    
+
+     <file>files/images/mario/mario1_move0.bmp</file>
+     <file>files/images/mario/mario1_move1.bmp</file>
+     <file>files/images/mario/mario1_move2.bmp</file>
+     <file>files/images/mario/mario1.bmp</file>
+     <file>files/images/mario/mario1_jump.bmp</file>
+     <file>files/images/mario/mario1_squat.bmp</file>   
+     <file>files/images/mario/mario1_end.bmp</file>
+     <file>files/images/mario/mario1_end1.bmp</file> 
+
+     <file>files/images/mario/mario_s0_move0.bmp</file>
+     <file>files/images/mario/mario_s0_move1.bmp</file>
+     <file>files/images/mario/mario_s0_move2.bmp</file>
+     <file>files/images/mario/mario2s_move0.bmp</file>
+     <file>files/images/mario/mario2s_move1.bmp</file>
+     <file>files/images/mario/mario2s_move2.bmp</file>
+     <file>files/images/mario/mario_s0.bmp</file>
+     <file>files/images/mario/mario2s.bmp</file>
+     <file>files/images/mario/mario_s0_jump.bmp</file>
+     <file>files/images/mario/mario2s_jump.bmp</file>
+     <file>files/images/mario/mario2s_squat.bmp</file>
+     <file>files/images/mario/mario2s_end.bmp</file>
+     <file>files/images/mario/mario2s_end1.bmp</file>
+     <file>files/images/mario/mario_s0_end.bmp</file>
+     <file>files/images/mario/mario_s0_end1.bmp</file>   
+
+     <file>files/images/mario/mario_s1_move0.bmp</file>
+     <file>files/images/mario/mario_s1_move1.bmp</file>
+     <file>files/images/mario/mario_s1_move2.bmp</file>
+     <file>files/images/mario/mario2_move0.bmp</file>
+     <file>files/images/mario/mario2_move1.bmp</file>
+     <file>files/images/mario/mario2_move2.bmp</file>
+     <file>files/images/mario/mario_s1.bmp</file>
+     <file>files/images/mario/mario2.bmp</file>
+     <file>files/images/mario/mario_s1_jump.bmp</file>
+     <file>files/images/mario/mario2_jump.bmp</file>
+     <file>files/images/mario/mario2_squat.bmp</file>
+     <file>files/images/mario/mario2_end.bmp</file>  
+     <file>files/images/mario/mario2_end1.bmp</file>
+     <file>files/images/mario/mario_s1_end.bmp</file>
+     <file>files/images/mario/mario_s1_end1.bmp</file> 
+
+     <file>files/images/bowser1.bmp</file>  
+     <file>files/images/bowser2.bmp</file>
+     <file>files/images/bowser3.bmp</file>
+     <file>files/images/bowser0.bmp</file> 
+
+     <file>files/images/bridge_0.bmp</file>  
+     <file>files/images/axe_0.bmp</file>
+     <file>files/images/fire_0.bmp</file>  
+     <file>files/images/fire_1.bmp</file>
+ 
+     <file>Extra_Level_Background.png</file>
+
+     <file>files/images/peach_mod.bmp</file>
+
+     <file>files/images/end0_dot.bmp</file>
+     <file>files/images/end0_flag.bmp</file>
+     <file>files/images/end0_l.bmp</file>
+     
+     <file>piattaforma.bmp</file>
+     
+     <file>sounds/block-break.wav</file>
+     <file>sounds/block-hit.wav</file>
+     <file>sounds/coin.wav</file>
+     <file>sounds/death.wav</file>
+     <file>sounds/gameover.wav</file>
+     <file>sounds/jump-small.wav</file>
+     <file>sounds/jump-big.wav</file>
+     <file>sounds/mushroom-appear.wav</file>
+     <file>sounds/mushroom-eat.wav</file>
+     <file>sounds/oneup.wav</file>
+     <file>sounds/overworld.wav</file>
+     <file>sounds/pause.wav</file>
+     <file>sounds/stomp.wav</file>
+     <file>sounds/shrink.wav</file>
+     <file>sounds/starmusic.wav</file>
+ 
+     <file>files/sounds/underground.wav</file>
+     <file>files/sounds/castle.wav</file>
+ 
+     <file>files/sounds/pipe.wav</file>
+     <file>files/sounds/fireball.wav</file>
+     <file>files/sounds/levelend.wav</file>
+     <file>files/sounds/shot.wav</file>
+    
+
+</qresource>
+</RCC>

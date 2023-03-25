@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{662343B7-8D29-4417-B600-B2F80DAC7A43}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ascia (1).cpp" />
+    <ClCompile Include="ascia (2).cpp" />
+    <ClCompile Include="ascia (3).cpp" />
+    <ClCompile Include="ascia.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="bandiera.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="bowser.cpp" />
+    <ClCompile Include="bowser_fire.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BrickDebris.cpp" />
+    <ClCompile Include="CoinSpawnable.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="fine_livello (1).cpp" />
+    <ClCompile Include="fine_livello (2).cpp" />
+    <ClCompile Include="fine_livello (3).cpp" />
+    <ClCompile Include="fine_livello.cpp" />
+    <ClCompile Include="Flower.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Goomba.cpp" />
+    <ClCompile Include="guscio.cpp" />
+    <ClCompile Include="Inert.cpp" />
+    <ClCompile Include="Koopa.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mario.cpp" />
+    <ClCompile Include="moneta.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="pallafuoco.cpp" />
+    <ClCompile Include="pianta_piranha.cpp" />
+    <ClCompile Include="piattaforma.cpp" />
+    <ClCompile Include="Pipe.cpp" />
+    <ClCompile Include="ponte.cpp" />
+    <ClCompile Include="stella.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ascia (1).h" />
+    <ClInclude Include="ascia (2).h" />
+    <ClInclude Include="ascia (3).h" />
+    <ClInclude Include="ascia.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="bandiera.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="bowser.h" />
+    <ClInclude Include="bowser_fire.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BrickDebris.h" />
+    <ClInclude Include="CoinSpawnable.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="fine_livello (1).h" />
+    <ClInclude Include="fine_livello (2).h" />
+    <ClInclude Include="fine_livello (3).h" />
+    <ClInclude Include="fine_livello.h" />
+    <ClInclude Include="Flower.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Goomba.h" />
+    <ClInclude Include="guscio.h" />
+    <ClInclude Include="Inert.h" />
+    <ClInclude Include="Koopa.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="Mario (1).h" />
+    <ClInclude Include="Mario (2).h" />
+    <ClInclude Include="Mario (3).h" />
+    <ClInclude Include="Mario.h" />
+    <ClInclude Include="moneta.h" />
+    <ClInclude Include="Mushroom.h" />
+    <ClInclude Include="Object (1).h" />
+    <ClInclude Include="Object (2).h" />
+    <ClInclude Include="Object (3).h" />
+    <ClInclude Include="Object (4).h" />
+    <ClInclude Include="Object (5).h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="pallafuoco (1).h" />
+    <ClInclude Include="pallafuoco (2).h" />
+    <ClInclude Include="pallafuoco (3).h" />
+    <ClInclude Include="pallafuoco.h" />
+    <ClInclude Include="pianta_piranha.h" />
+    <ClInclude Include="piattaforma.h" />
+    <ClInclude Include="Pipe.h" />
+    <ClInclude Include="ponte.h" />
+    <ClInclude Include="stella.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="utils (1).h" />
+    <ClInclude Include="utils (2).h" />
+    <ClInclude Include="utils (3).h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
