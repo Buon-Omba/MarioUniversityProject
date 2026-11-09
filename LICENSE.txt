@@ -1,3 +1,25 @@
+SOURCE CODE LICENSE
+===================
+
+The source code in this repository (the .cpp, .h, CMake and project files)
+is released under the Unlicense, reproduced below.
+
+ASSETS AND TRADEMARKS - NOT COVERED BY THIS LICENSE
+===================================================
+
+The Unlicense does NOT apply to the graphics, sounds and level images in
+this repository (the graphics/, sounds/, files/ and levels/ folders and the
+image files in the root folder). These assets, as well as the names
+"Super Mario Bros.", "Mario", "Bowser" and all related characters, are
+the property of Nintendo Co., Ltd. All rights reserved by their owner.
+
+This is a non-commercial university project made for educational purposes
+only. It is not affiliated with, endorsed, sponsored or approved by
+Nintendo in any way. If you are a rights holder and want any of this
+material removed, please open an issue and it will be taken down.
+
+-------------------------------------------------------------------------------
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
