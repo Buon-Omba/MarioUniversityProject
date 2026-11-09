@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Qt Creator user settings
+*.user.*
+CMakeLists.txt.user*
+*.creator.user*
