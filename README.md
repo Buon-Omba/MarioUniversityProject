@@ -1,7 +1,7 @@
-When I was studying at university I created this simple project, it is nothing more than a fork, in Qt and C ++, of the first two levels of Super Mario Bros. There is added a very simple Bowser boss fight towards the end but there isn't world 1-4. To be considered exclusively as a didactic project that I am trying to develop a little more.
+When I was studying at university I created this simple project: it is nothing more than a fork, in Qt and C++, of the first two levels of Super Mario Bros. A very simple Bowser boss fight has been added towards the end, but there is no World 1-4. It should be considered exclusively an educational project, which I am trying to develop a little further.
 
 To-Do:
-- Complete world 1-3 and 1-4
+- Complete World 1-3 and 1-4
 - Create an .AppImage
 
 ## Disclaimer
